@@ -19,6 +19,9 @@ def pt(var):
 def pp(var):
     pprint(var)
 
+def get_dict_keys(input_dict):
+    return list(input_dict.keys())
+
 def json_file_to_csv(jsonfile, output_filename):
     """
     Takes a json file and builds a CSV file from it
